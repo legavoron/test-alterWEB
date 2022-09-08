@@ -1,0 +1,42 @@
+body {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+input {
+    display: block;
+    width: 160px;
+    outline: none;
+    font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input:last-child {
+    margin-right: 0px;
+}
+
+button {
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+	border: 1px solid #cecece;
+	background: #6bb7ea;
+	border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #aed7f2;
+}
