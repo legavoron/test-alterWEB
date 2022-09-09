@@ -68,6 +68,13 @@ function showInputsValue() {
         addElement(valuesContainer, error)
     }
 
+    if (num1 === '0' || num2 === '0') {
+        let error = document.createElement('h2');
+        error.style.color = 'red';
+        error.innerHTML = 'На 0 делить нельзя, но это же Java Script, мы попытаемся)'
+        addElement(valuesContainer, error)
+    }
+        
     values.forEach(value => {
         let heading = createHeading(value);
         addElement(valuesContainer, heading)
